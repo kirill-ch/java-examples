@@ -10,7 +10,7 @@ public class InheritanceAnimal {
 }
 
 abstract class Animal {
-    public abstract boolean feed(int amount, FoodType foodType);
+    abstract boolean feed(int amount, FoodType foodType);
 }
 
 abstract class Predator extends Animal {
